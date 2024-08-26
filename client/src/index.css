@@ -1,0 +1,88 @@
+/* src/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for the Listing Process section */
+.bg-cover {
+  /* background-size:cover; */
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.bg-black {
+  background-color: #00000048;
+}
+
+.bg-opacity-50 {
+  background-opacity: 0.5;
+}
+
+.p-8 {
+  padding: 2rem;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.bg-blue-600 {
+  background-color: #1D4ED8;
+}
+
+.text-blue-600 {
+  color: #1D4ED8;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.logo {
+  max-height: 40px; /* Adjust size as needed */
+  width:auto;
+  margin: 0 auto;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.icon {
+  max-height: 30px; /* Adjust size as needed */
+  cursor: pointer;
+}
+
+.icon:hover {
+  opacity: 0.7;
+}
