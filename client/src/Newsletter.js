@@ -8,7 +8,7 @@ const Newsletter = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/api/subscription', { email })
+        axios.post('http://localhost:5000/api/newsletter', { email })
             .then(response => {
                 setSuccess('Subscribed to newsletter!');
                 setError('');
